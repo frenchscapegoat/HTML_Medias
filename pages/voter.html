@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 	<head>
 	    <title>Titre de ma page : Voter</title>
@@ -6,33 +6,97 @@
 	
 	<body>
 	<div id="bandeau">
-	<a href="index.html"><img src="../images/bandeau.jpg" /></a>
+	<a href="../index.html" ><img src="../images/bandeau.jpg" alt="alternative_miskine" /></a>
 	</div>
 	<div id="menu">
 	<h2>Vous pouvez consulter :</h2>
 		<div id="sous-menu">
 			<ul>
-				<a href="candidats.html"><li>Candidats</li></a>
-				<a href="commentfaire.html"><li>Comment faire</li></a>
-				<a href="voter.html"><li>Voter</li></a>
+				<li>
+				<a href="../pages/candidats.html">Candidats</a>
+				</li>
+				<li>
+				<a href="/pages/commentfaire.html">Comment faire</a>
+				</li>
+				<li>
+				<a href="/pages/voter.html">Voter</a>
+				</li>
 			</ul>
 		</div>
 	</div>
 	<div id="contenu">
 		<h1>Vous voulez voter ?</h1>
-		<p> Description </p>
-		<form name="Formulaire de vote" action="#">
-			<label for="saisie">Indiquez votre nom </label>
-			<input name="champ" type="text" /><br/>
-			<label for="saisie">Dans quelle ville habitez-vous ? </label>
-			<select name = "ville">
-				<option value="paris">Paris</option>
-				<option value="orsay">Orsay</option>
-				<option value="Bures sur Yvette">Bures sur Yvette</option>
-			</select><br/>
+		
+		<form name="formulairedevote" action="#">
+			<div id="oknormalement">
+				<label for="labelchamp">Indiquez votre nom </label>
+				<div id ="tamere">
+				<br/>
+				<br/>
+				</div>
+				<input name="champ" type="text" />
+				<div id ="tamere2">
+				<br/>
+				<br/>
+				<br/>
+				</div>
+				
+				<label for="labelchamp">Dans quelle ville habitez-vous ? </label>
+				<br/>
+				<br/>
+				<select name = "ville">
+					<option value="paris">Paris</option>
+					<option value="orsay">Orsay</option>
+					<option value="Bures sur Yvette">Bures sur Yvette</option>
+				</select>
+				<br/>
+				<br/>
+				<br/>
+				
+				<label for="labelchamp">Indiquez votre groupe de TD : </label>
+				<br/>
+				<br/>
+				<p>
+				<input name="Groupe" type="radio" value="A" />Groupe A
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="B" />Groupe B
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="C" />Groupe C
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="D" />Groupe D
+				<br/>
+				<br/>
+				</p>
+				<br/>
+
+				<label for="labelchamp">Pour quel candidat voulez-vous voter ? </label>
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Alexandre Martin
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Guillaume Dupond
+				<br/><br/>
+				<input name="nom" type="checkbox" /> Aurélie Durand
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Stéphanie Fosse
+				<br/>
+				<br/>
+				<br/>
+				
+				<label for="labelchamp"></label>
+				<br/>
+				<br/>
+				<input name="Voter" type ="submit" value="Astarfoulah tu as voté magel !" />
+				<br/>
+				<br/>
+				<br/>
+			</div>	
 		</form>
 	</div>
 	</body>
-	<body>
-	
-	</body>
+</html>
