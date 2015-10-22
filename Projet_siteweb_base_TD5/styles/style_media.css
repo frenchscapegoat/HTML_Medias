@@ -1,0 +1,21 @@
+div.bandeau {
+	border: 2px solid black;
+}
+div.menu {
+	float: left;
+	height:200px;
+	width: 18%;
+	border: 2px solid blue;
+	padding-left: 10px;
+	padding-top: 20px;
+	background-color: grey; 
+	font-weight: bold;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+div.contenu {
+	width: 75%;
+	height:200px;
+	float: right;
+	font-style: italic;
+}

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+	<head>
+	    <title>Titre de ma page : Voter</title>
+		<!--<link rel="stylesheet" type="text/css"
+		href="../styles/style_media.css" /> -->
+		<link rel="stylesheet" type="text/css" href="../styles/style_upsud.css" />
+	</head>
+	
+	<body>
+	<bloc_page>
+	<div class="bandeau">
+	<a href="../index.html" ><img src="../images/bandeau.jpg" alt="alternative_miskine" /></a>
+	</div>
+	<div class="menu">
+	<h2>Vous pouvez consulter :</h2>
+		<div class="sous-menu">
+			<ul>
+				<li>
+				<a href="../pages/candidats.html">Candidats</a>
+				</li>
+				<li>
+				<a href="../pages/commentfaire.html">Comment faire</a>
+				</li>
+				<li>
+				<a href="../pages/voter.html">Voter</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="contenu">
+		<h1>Vous voulez voter ?</h1>
+		
+		<form name="formulairedevote" id=formulairevote action="#">
+			<div id="oknormalement">
+				<label class="labelchamp">Indiquez votre nom </label>
+				<br/>
+				<br/>
+				<input name="champ" type="text" />
+				<br/>
+				<br/>
+				<br/>
+				
+				
+				<label class="labelchamp">Dans quelle ville habitez-vous ? </label>
+				<br/>
+				<br/>
+				<select name = "ville">
+					<option value="paris">Paris</option>
+					<option value="orsay">Orsay</option>
+					<option value="Bures sur Yvette">Bures sur Yvette</option>
+				</select>
+				<br/>
+				<br/>
+				<br/>
+				
+				<label class="labelchamp">Indiquez votre groupe de TD : </label>
+				<br/>
+				<br/>
+				<p>
+				<input name="Groupe" type="radio" value="A" />Groupe A
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="B" />Groupe B
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="C" />Groupe C
+				<br/>
+				<br/>
+				<input name="Groupe" type="radio" value="D" />Groupe D
+				<br/>
+				<br/>
+				</p>
+				<br/>
+
+				<label class="labelchamp">Pour quel candidat voulez-vous voter ? </label>
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Alexandre Martin
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Guillaume Dupond
+				<br/><br/>
+				<input name="nom" type="checkbox" /> Aurélie Durand
+				<br/>
+				<br/>
+				<input name="nom" type="checkbox" /> Stéphanie Fosse
+				<br/>
+				<br/>
+				<br/>
+				
+				<label class="labelchamp"></label>
+				<br/>
+				<br/>
+				<input name="Voter" type ="submit" value="Astarfoulah tu as voté magel !" />
+				<br/>
+				<br/>
+				<br/>
+			</div>	
+		</form>
+	</div>
+	</bloc_page>
+	</body>
+</html>
