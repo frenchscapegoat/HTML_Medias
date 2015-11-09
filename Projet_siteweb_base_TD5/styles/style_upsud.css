@@ -26,9 +26,9 @@ body {
 	margin-right: 10%;
 }
 
-........... li
+.sous-menu li
 {
-    background: url('.......... ') no-repeat;
+    background: url('../images/puce_bleu.png') no-repeat;
   	background-position: 0 0.2em;
 	background-color: #EFF0FF;
 	padding-left: 1.4em;
@@ -38,9 +38,9 @@ body {
 }
 
 
-...........  a
+.sous-menu  a
 {
-    text-decoration: .......... ;
+    text-decoration: none ;
 	color: #00486C;
 }
 
@@ -78,4 +78,8 @@ h2 {
 	margin-right: 10%;
 }
 
+.vide{
+	clear : both;
+	
+}
 
